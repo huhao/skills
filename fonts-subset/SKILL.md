@@ -5,14 +5,14 @@ description: 使用 pyftsubset 精简字体
 
 # fonts-subset
 
-该 Skill 旨在利用 `fonttools` 提供的 `pyftsubset` 命令，对字体（TTF/OTF）进行精简（Subsetting），仅保留需要的字符集（Glyphs），从而大幅度减小字体文件体积。
+该 Skill 旨在利用 `fonttools` 提供的 `pyftsubset` 命令，对字体进行精简（Subsetting），仅保留需要的字符集（Glyphs），从而大幅度减小字体文件体积。
 
 ## 1. 环境准备 (Installation)
 
-你需要安装 `fonttools` 以及用于 WOFF2 压缩的 `brotli`。
+你需要安装 `fonttools`
 
 ```bash
-pip install fonttools brotli
+pip install fonttools
 ```
 
 ## 2. 基础用法 (Basic Usage)
