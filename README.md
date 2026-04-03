@@ -1,3 +1,3 @@
 # SKILL
 
-+ font-subset: 精简字体文件
++ font-subset: 根据指定字符集精简字体文件
